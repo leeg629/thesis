@@ -1,0 +1,49 @@
+body {
+  background-color: #7070db;
+}
+
+img {
+  left: 515px;
+  top: 50px;
+  position: absolute;
+}
+
+.heart {
+  font-size: 25px;
+  position: absolute;
+  animation-name: heart;
+  animation-duration: 8s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes heart {
+    0% {
+    top: 565px;
+    right: 887px;
+  }
+    25% {
+    top: 500px;
+  }
+    50% {
+    top: 350px;
+  }
+    75% {
+    top: 220px;
+  }
+    100% {
+    top: 0px;
+    right: 887px;
+  }
+}
+
+
+#pics {
+  position: relative;
+  top: 102px;
+  left: 506px;
+  width: 401px;
+  height: 446px;
+  background-size: cover;
+  background-position: center center;
+}
